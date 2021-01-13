@@ -12,6 +12,7 @@ h2 {
   line-height: 1;
   font-size: 2.7rem;
   text-transform: uppercase;
+  margin: 0;
 }
 
 p {
@@ -89,13 +90,23 @@ p {
   color: #bd5d38;
 }
 
+@media (max-width: 992px) {
+  #about {
+    text-align: center;
+  }
+
+  h1 {
+    margin-top: 7%;
+  }
+}
+
 /* Portfolio Section */
 .colored {
-  padding-top: 4%;
+  padding-top: 5%;
   background-color: #bd5d38;
   text-align: center;
 }
 
 .carousel {
-  margin-top: 30px;
+  padding: 40px;
 }

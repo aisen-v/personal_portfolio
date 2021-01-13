@@ -1,10 +1,17 @@
 /* Fonts */
-
 h1 {
   font-family: 'Saira Extra Condensed', sans-serif;
   font-weight: 700;
   line-height: 1;
   font-size: 4rem;
+}
+
+h2 {
+  font-family: 'Saira Extra Condensed', sans-serif;
+  font-weight: 700;
+  line-height: 1;
+  font-size: 2.7rem;
+  text-transform: uppercase;
 }
 
 p {
@@ -14,7 +21,7 @@ p {
   color: #6c757d;
 }
 
-.colored {
+.colored-text {
   color: #bd5d38 !important;
 }
 
@@ -29,6 +36,8 @@ p {
 
 .nav-link {
   color: #DBA089;
+  font-family: 'Mulish', sans-serif;
+  font-weight: 700;
 }
 
 .nav-link:hover {
@@ -42,7 +51,6 @@ p {
 }
 
 /* About Section */
-
 #about {
   margin: 7% 10%;
 }
@@ -53,10 +61,10 @@ p {
 }
 
 .subheading {
-font-family: 'Saira Extra Condensed', sans-serif;
-font-weight: 500;
-font-size: 1.3rem;
-margin-bottom: 40px;
+  font-family: 'Saira Extra Condensed', sans-serif;
+  font-weight: 500;
+  font-size: 1.3rem;
+  margin-bottom: 40px;
 }
 
 .email {
@@ -72,11 +80,22 @@ margin-bottom: 40px;
   color: #5e2e1c;
 }
 
-.social-links a{
+.social-links a {
   color: #495057;
   padding-right: 27px;
 }
 
 .social-links a:hover {
   color: #bd5d38;
+}
+
+/* Portfolio Section */
+.colored {
+  padding-top: 4%;
+  background-color: #bd5d38;
+  text-align: center;
+}
+
+.carousel {
+  margin-top: 30px;
 }

@@ -1,1 +1,82 @@
-/* Side Navigation Menu */
+/* Fonts */
+
+h1 {
+  font-family: 'Saira Extra Condensed', sans-serif;
+  font-weight: 700;
+  line-height: 1;
+  font-size: 4rem;
+}
+
+p {
+  font-family: 'Mulish', sans-serif;
+  line-height: 1.5;
+  font-size: 1.2rem;
+  color: #6c757d;
+}
+
+.colored {
+  color: #bd5d38 !important;
+}
+
+/* Navigation bar */
+.navbar {
+  background-color: #bd5d38;
+}
+
+.navbar-brand {
+  color: #fff;
+}
+
+.nav-link {
+  color: #DBA089;
+}
+
+.nav-link:hover {
+  color: #EBCBBF;
+}
+
+@media (min-width: 992px) {
+  .navbar-brand {
+    display: none;
+  }
+}
+
+/* About Section */
+
+#about {
+  margin: 7% 10%;
+}
+
+.aisen-img {
+  border: 6px solid #bd5d38;
+  border-radius: 50%;
+}
+
+.subheading {
+font-family: 'Saira Extra Condensed', sans-serif;
+font-weight: 500;
+font-size: 1.3rem;
+margin-bottom: 40px;
+}
+
+.email {
+  text-transform: uppercase;
+  color: #bd5d38;
+}
+
+.description {
+  margin-bottom: 40px;
+}
+
+.email:hover {
+  color: #5e2e1c;
+}
+
+.social-links a{
+  color: #495057;
+  padding-right: 27px;
+}
+
+.social-links a:hover {
+  color: #bd5d38;
+}

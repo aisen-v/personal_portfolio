@@ -91,7 +91,7 @@ p {
 }
 
 @media (max-width: 992px) {
-  #about {
+  body {
     text-align: center;
   }
 
@@ -170,4 +170,21 @@ p {
 
 .website-link:hover {
   text-decoration: none;
+}
+
+/* Skills Section */
+
+#skills {
+    margin: 7% 10%;
+}
+
+.dev-icons li {
+  padding-right: 10px ;
+}
+
+.subheading1 {
+  font-family: 'Saira Extra Condensed', sans-serif;
+  font-weight: 500;
+  font-size: 1.3rem;
+  margin-top: 40px;
 }
